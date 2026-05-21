@@ -4,8 +4,6 @@ This project serves as a template for creating minecraft fabric and neoforge mod
 
 This template is based on top of [Jared's Multiloader Template](https://github.com/jaredlll08/MultiLoader-Template).
 
-This project provides a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the project, please join our [Discord](https://discord.myceliummod.network).
-
 ## How to Use
 
 All mod classes should be placed in the `common` project under either the `main` or `client` source set. Classes can
