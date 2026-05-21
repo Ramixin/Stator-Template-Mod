@@ -39,6 +39,13 @@ neoForge {
     }
 }
 
+dependencies {
+
+    compileOnly "com.github.Ramixin.stator:stator:${stator_version}:multiloader"
+    runtimeOnly "maven.modrinth:dynamo:${neoforge_dynamo_version}-neoforge"
+
+}
+
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 // Implement mcgradleconventions loader attribute
